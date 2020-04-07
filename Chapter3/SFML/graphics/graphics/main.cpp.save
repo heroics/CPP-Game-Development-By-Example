@@ -33,7 +33,7 @@ int main()
     myTriangle.setPoint(0, Vector2f(-100.0f, 0));
     myTriangle.setPoint(1, Vector2f(0.0f, -100));
     myTriangle.setPoint(2, Vector2f(100.0f, 0));
-    myTriangle.setFillColor(Color::Magenta);
+    myTriangle.setFillColor(Color::Magenta); 
     myTriangle.setPosition(viewSize.x / 2, viewSize.y / 2);
     // Start the game loop
     while (gameWindow.isOpen())
