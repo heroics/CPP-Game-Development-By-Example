@@ -1,0 +1,4 @@
+# depslib dependency file v1.0
+1586367932 source:/home/jordan/Documents/CPP/CPPGameDevelopmentByExample/Chapter3/SFML/texture/texture/main.cpp
+	<SFML/Graphics.hpp>
+
