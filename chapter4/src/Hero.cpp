@@ -1,4 +1,4 @@
-#include "hero.h"
+#include "Hero.h"
 #include <SFML/Graphics.hpp>
 #include <string>
 Hero::Hero()

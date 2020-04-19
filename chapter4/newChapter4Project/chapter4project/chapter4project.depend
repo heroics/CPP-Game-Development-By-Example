@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1587311935 source:/home/jordan/Documents/CPP/CPPGameDevelopmentByExample/chapter4/newChapter4Project/chapter4project/src/Hero.cpp
+	"Hero.h"
+	<SFML/Graphics.hpp>
+	<string>
+
+1587311209 /home/jordan/Documents/CPP/CPPGameDevelopmentByExample/chapter4/newChapter4Project/chapter4project/include/Hero.h
+	<SFML/Graphics.hpp>
+
+1587312177 source:/home/jordan/Documents/CPP/CPPGameDevelopmentByExample/chapter4/newChapter4Project/chapter4project/main.cpp
+	"Hero.h"
+	<SFML/Graphics.hpp>
+

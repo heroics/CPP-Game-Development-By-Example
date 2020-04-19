@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="/home/jordan/Documents/CPP/CPPGameDevelopmentByExample/chapter4/" />
 				</Compiler>
 				<Linker>
 					<Add library="sfml-graphics" />
@@ -39,8 +40,17 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Assets/graphics/bg.png" />
+		<Unit filename="Assets/graphics/enemy.png" />
+		<Unit filename="Assets/graphics/hero.png" />
+		<Unit filename="Assets/graphics/rocket.png" />
+		<Unit filename="Assets/graphics/sky.png" />
 		<Unit filename="cb.bmp" />
+		<Unit filename="chapter4.cbp.save" />
+		<Unit filename="chapter4.layout.save" />
+		<Unit filename="include/Hero.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Hero.cpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
