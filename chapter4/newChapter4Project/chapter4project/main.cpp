@@ -79,7 +79,7 @@ void init()
     scoreText.setPosition(Vector2f(viewSize.x * 0.5f, viewSize.y * .10f));
     tutorialText.setPosition(Vector2f(viewSize.x * 0.5f, viewSize.y * .20f));
     // Load Player
-    player.init("Assets/graphics/hero.png", Vector2f(viewSize.x * 0.25f, viewSize.y * 0.5f), 200);
+    player.init("Assets/graphics/heroAnim.png", 4, 1.0f, Vector2f(viewSize.x * 0.25f, viewSize.y * 0.5f), 200);
     skySprite.setTexture(skyTexture);
     // Seed the random generator
     srand((int)time(0));

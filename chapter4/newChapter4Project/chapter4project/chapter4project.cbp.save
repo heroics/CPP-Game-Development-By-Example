@@ -65,10 +65,6 @@
 		<Unit filename="include/Rocket.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="main.cpp.save" />
-		<Unit filename="obj/Debug/main.o" />
-		<Unit filename="obj/Debug/src/Enemy.o" />
-		<Unit filename="obj/Debug/src/Hero.o" />
-		<Unit filename="obj/Debug/src/Rocket.o" />
 		<Unit filename="src/Enemy.cpp" />
 		<Unit filename="src/Hero.cpp" />
 		<Unit filename="src/Rocket.cpp" />
