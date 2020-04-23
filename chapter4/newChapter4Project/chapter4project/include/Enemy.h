@@ -10,7 +10,7 @@ class Enemy
 public:
     Enemy();
     virtual ~Enemy();
-    void init(string textureName, Vector2f position, float speed);
+    void init(string textureName, Vector2f position, float velocity);
     void update(float deltaTime);
     Sprite getSprite();
 

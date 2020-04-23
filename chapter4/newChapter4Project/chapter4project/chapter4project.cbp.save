@@ -19,6 +19,7 @@
 					<Add library="sfml-graphics" />
 					<Add library="sfml-window" />
 					<Add library="sfml-system" />
+					<Add library="sfml-audio" />
 				</Linker>
 			</Target>
 			<Target title="Release">
@@ -41,21 +42,37 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Assets/audio/backgroundMusic.wav" />
+		<Unit filename="Assets/audio/hitSound.wav" />
+		<Unit filename="Assets/audio/shootSound.wav" />
+		<Unit filename="Assets/bg.png" />
+		<Unit filename="Assets/fonts/gameFont.ttf" />
+		<Unit filename="Assets/fonts/scoreFont.ttf" />
 		<Unit filename="Assets/graphics/bg.png" />
 		<Unit filename="Assets/graphics/enemy.png" />
+		<Unit filename="Assets/graphics/gameFont.ttf" />
 		<Unit filename="Assets/graphics/hero.png" />
+		<Unit filename="Assets/graphics/heroAnim.png" />
 		<Unit filename="Assets/graphics/rocket.png" />
+		<Unit filename="Assets/graphics/scoreFont.ttf" />
 		<Unit filename="Assets/graphics/sky.png" />
-		<Unit filename="bin/Debug/chapter4project" />
 		<Unit filename="cb.bmp" />
 		<Unit filename="chapter4project.cbp.save" />
 		<Unit filename="chapter4project.depend" />
 		<Unit filename="chapter4project.layout.save" />
 		<Unit filename="include/Enemy.h" />
 		<Unit filename="include/Hero.h" />
+		<Unit filename="include/Rocket.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="main.cpp.save" />
+		<Unit filename="obj/Debug/main.o" />
+		<Unit filename="obj/Debug/src/Enemy.o" />
+		<Unit filename="obj/Debug/src/Hero.o" />
+		<Unit filename="obj/Debug/src/Rocket.o" />
 		<Unit filename="src/Enemy.cpp" />
 		<Unit filename="src/Hero.cpp" />
+		<Unit filename="src/Rocket.cpp" />
+		<Unit filename="src/Rocket.cpp.save" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

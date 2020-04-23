@@ -23,3 +23,13 @@ void Enemy::init(string textureName, Vector2f position, float velocity)
     this->sprite.setPosition(this->position);
     this->sprite.setOrigin(this->texture.getSize().x / 2, this->texture.getSize().y / 2);
 }
+
+void Enemy::update(float deltaTime)
+{
+    this->sprite.move(this->velocity * deltaTime, 0);
+}
+
+Sprite Enemy::getSprite()
+{
+    return this->sprite;
+}
