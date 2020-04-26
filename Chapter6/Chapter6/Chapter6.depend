@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1587670458 source:/home/jordan/Documents/CPP/CPPGameDevelopmentByExample/Chapter6/Chapter6/main.c
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+
+1587930002 source:/home/jordan/Documents/CPP/CPPGameDevelopmentByExample/Chapter6/Chapter6/src/Mesh.cpp
+	"Mesh.h"
+
+1587827599 /home/jordan/Documents/CPP/CPPGameDevelopmentByExample/Chapter6/Chapter6/include/Mesh.h
+	"Mesh.h"
+	<glm/glm.hpp>
+	<vector>
+
+1587943436 source:/home/jordan/Documents/CPP/CPPGameDevelopmentByExample/Chapter6/Chapter6/src/LightRenderer.cpp
+	"LightRenderer.h"
+
+1587920849 /home/jordan/Documents/CPP/CPPGameDevelopmentByExample/Chapter6/Chapter6/include/LightRenderer.h
+	"Camera.h"
+	"Mesh.h"
+	"ShadeLoader.h"
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<vector>
+
+1587830328 /home/jordan/Documents/CPP/CPPGameDevelopmentByExample/Chapter6/Chapter6/include/Camera.h
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1587833026 /home/jordan/Documents/CPP/CPPGameDevelopmentByExample/Chapter6/Chapter6/include/ShadeLoader.h
+	<GL/glew.h>
+	<string>
+
+1587942110 source:/home/jordan/Documents/CPP/CPPGameDevelopmentByExample/Chapter6/Chapter6/src/ShadeLoader.cpp
+	"ShadeLoader.h"
+	<fstream>
+	<iostream>
+	<vector>
+
+1587922515 source:/home/jordan/Documents/CPP/CPPGameDevelopmentByExample/Chapter6/Chapter6/src/Camera.cpp
+	"Camera.h"
+
+1587943485 source:/home/jordan/Documents/CPP/CPPGameDevelopmentByExample/Chapter6/Chapter6/main.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"Camera.h"
+	"LightRenderer.h"
+	"ShadeLoader.h"
+	<iostream>
+
