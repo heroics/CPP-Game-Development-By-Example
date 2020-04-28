@@ -52,6 +52,7 @@
 		<Unit filename="include/Mesh.h" />
 		<Unit filename="include/ShadeLoader.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="main.cpp.save" />
 		<Unit filename="src/Camera.cpp" />
 		<Unit filename="src/LightRenderer.cpp" />
 		<Unit filename="src/Mesh.cpp" />
